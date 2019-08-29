@@ -1,0 +1,19 @@
+{
+  "name": "erikvandam",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "repository": "https://github.com/eriktisme/website",
+  "author": "Erik van Dam <erik@erikvandam.dev>",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/main.css -o public/main.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0"
+  }
+}
