@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "postcss src/main.css -o public/main.css",
-    "deploy": "gh-pages -d public"
+    "deploy": "yarn run --production build && gh-pages -d public"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
