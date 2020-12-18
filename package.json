@@ -1,9 +1,9 @@
 {
   "name": "erikvandam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal website",
   "repository": "https://github.com/eriktisme/website",
-  "author": "Erik van Dam <erik@erikvandam.dev>",
+  "author": "Erik van Dam",
   "homepage": "https://erikvandam.dev",
   "license": "MIT",
   "scripts": {
@@ -11,11 +11,11 @@
     "deploy": "yarn run --production build && gh-pages -d public"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^10.1.0",
     "cssnano": "^4.1.10",
-    "gh-pages": "^2.1.1",
-    "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2"
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
   }
 }
